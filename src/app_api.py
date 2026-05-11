@@ -24,17 +24,7 @@ def main(page: flet.Page):
             page.push_route(route)
         )
 
-    # def montar_lista_personagens():
-    #     lista_dados = get_personagens()
-    #
-    #     for item in lista_dados["items"]:
-    #         list_view.controls.append(
-    #             ListTile(
-    #                 leading=Image(src=item["image"], width=60),
-    #                 title=Text(item["name"], weight=FontWeight.BOLD, color=Colors.BLUE_900),
-    #                 subtitle=Text(item["rece"], max_lines=2, overflow=TextOverflow.ELLIPSIS),
-    #             )
-    #         )
+
     #     # TODO: Montar a lista de personagens do seu jeito, capricha ein
 
     def montar_lista_planetas():
